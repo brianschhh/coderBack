@@ -1,0 +1,30 @@
+{
+  "name": "coderback",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "express": "nodemon --inspect ./main.js",
+    "http": "nodemon --inspect ./src/serverHttp.js"
+   
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianschhh/coderBack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brianschhh/coderBack/issues"
+  },
+  "homepage": "https://github.com/brianschhh/coderBack#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1"
+  }
+}
